@@ -1,4 +1,4 @@
-FROM index.tenxcloud.com/tenxcloud/nginx-php5
+FROM nginx-php5
 
 ADD . /usr/share/nginx/html
 RUN chmod -R 777 /usr/share/nginx/html/Application
