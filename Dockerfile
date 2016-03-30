@@ -1,4 +1,4 @@
-FROM nginx-php5
+FROM nginx
 
 ADD . /usr/share/nginx/html
 RUN chmod -R 777 /usr/share/nginx/html/Application
