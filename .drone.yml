@@ -1,2 +1,2 @@
 build:
-  image: golang:1.4
+  image: golang:1.5
