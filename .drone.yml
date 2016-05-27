@@ -1,4 +1,4 @@
 build:
   image: golang:1.5.3
   commands:
-    - go get github.com/xiaomuqiao/hello-world
+    - echo "gao jianqiao"
