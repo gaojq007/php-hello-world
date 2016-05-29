@@ -2,3 +2,7 @@ build:
   image: golang:1.5.3
   commands:
     - echo "gao jianqiao 123456789"
+build:
+  image: golang:1.5.3
+  commands:
+    - echo "gao jianqiao 123456789"
