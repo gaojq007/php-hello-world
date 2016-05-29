@@ -2,4 +2,9 @@ build:
   image: node:5.5
   commands:
     - echo "gao jianqiao 123456789101112"
-    
+compose:
+  database:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
