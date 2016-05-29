@@ -1,4 +1,4 @@
 build:
-  image: node:5.5.0
+  image: node:5.5
   commands:
     - echo "gao jianqiao 123456789101112"
